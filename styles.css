@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+.hero img {
+    width: 1000px;
+}
+.hero h2 {
+    color: #ff6600;
+    margin: 20px 0 10px;
+    font-size: 55px;
+}
+.hero h3 {
+    color: #333;
+    margin: 0;
+    font-size: 50px;
+}
+.hero p{
+    font-size: 35px;
+}
+.features, .testimonials, .cta {
+    margin: 50px 0;
+    text-align: center;
+}
+.features h2, .testimonials h2, .cta h2 {
+    margin-bottom: 30px;
+}
+.feature-list, .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature, .testimonial {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.cta form {
+    display: inline-block;
+    text-align: left;
+}
+.cta input[type="email"], .cta input[type="submit"] {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+.cta input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
